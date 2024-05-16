@@ -1,0 +1,44 @@
+[
+    {
+        "modelo": "Honda CB500X",
+        "descripcion": "La nueva CB 500X es ideal para introducirse en caminos que antes solo veías en una pantalla. Sus suspensiones de largo recorrido, su chasis reforzado, su rueda delantera de 19 pulgadas, su parabrisas alto, hacen que esta moto resuelva la mayoría de tus deseos dentro o fuera de la carretera. La Crossover de entrada por excelencia.",
+        "precio": 43500000,
+        "url_img": "./img/cb500x.JPG"
+    },
+    {
+        "modelo": "Himalayan 450",
+        "descripcion": "Una motocicleta con un amplio historial de aventuras a sus espaldas que sigue siendo fiel a nuestro concepto de Puro Motociclismo . La nueva Himalayan te ofrece la capacidad, la versatilidad y las habilidades necesarias para ir allá donde te lleve la aventura. Todo lo que necesitas, y solo lo que necesitas, para estos tiempos tan cambiantes.",
+        "precio": 32500000,
+        "url_img": "./img/himalayan450.JPG"
+    },
+    {
+        "modelo": "SCRAMBLER 400 X",
+        "descripcion": "EL ESTILO ATEMPORAL DE TRIUMPH CON LAS MÁS MODERNAS CAPACIDADES. LA SCRAMBLER 400 X ES UNA AVENTURERA QUE AÑADE DIVERSIÓN A CUALQUIER TRAYECTO",
+        "precio": 34500000,
+        "url_img": "./img/scrambler400x.JPG"
+    },
+    {
+        "modelo": "Scrambler 800",
+        "descripcion": "la nueva Ducati Scrambler® representa la perfecta combinación de tradición e innovación. La renovada Ducati Scrambler es más moderna, cómoda y segura, y garantiza aún más diversión desenfadada en The Land of Joy",
+        "precio": 44500000,
+        "url_img": "./img/scrambler800.JPG"
+    },
+    {
+        "modelo": "NineT 1200",
+        "descripcion": "una moto con la imagen de moto clásica pero con las ventajas de moto moderna, se rendía homenaje a los 90 años de BMW Motorrad. Tras todos estos año en el mercado la BMW R nineT sigue siendo un objeto de deseo para los que buscan una moto naked cargada de personalidad, de carácter",
+        "precio": 110500000,
+        "url_img": "./img/nineT1200.JPG"
+    },
+    {
+        "modelo": "Adventure 390 R",
+        "descripcion": "La KTM 390 ADVENTURE lleva la exploración más allá al fusionar la versatilidad OFF-Road y la probada fiabilidad con unas prestaciones para el mundo real. Construida en torno a un compacto motor monocilíndrico de 373 cc, con una parte ciclo capaz y ligera y una electrónica líder en su clase, la KTM 390 ADVENTURE te anima a descubrir nuevas fronteras con la inigualable capacidad y emoción que esperas de una KTM ADVENTURE. Con un diseño actualizado para 2022, la KTM 390 ADVENTURE está ahora también estéticamente en línea con las máquinas KTM FACTORY RALLY ganadoras del Dakar",
+        "precio": 38500000,
+        "url_img": "./img/adventur390r.JPG"
+    },
+    {
+        "modelo": "XSR900",
+        "descripcion": "Esta máquina está pensada en los años 80. Estamos acostumbrados a nuevas incorporaciones básicas de diferentes compañías, pero este modelo sorprende, ya que llega con un nuevo motor, un CP3 de 899 centímetros cúbicos, desarrolla 118 caballos de fuerza a los 10.000 giros, (4 más que la versión anterior) y también aumenta su torque, llegando a los 93Nm a las 7.000rpm",
+        "precio": 59500000,
+        "url_img": "./img/xsr900.JPG"
+    }
+]

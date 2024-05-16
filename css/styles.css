@@ -1,0 +1,113 @@
+.cabecera{
+	display: flex; /* Utilizamos flexbox para establecer dos columnas */
+	
+	text-align: center;
+	border-radius: 10px;	/* Borde redondeado en las esquinas */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);	/* Sombra en el lado inferior */
+	top: 0; /* Fija la cabecera en la parte superior */
+	position: sticky;/*este y top: 0 fijan la cabecera*/
+	padding: 20px; /* Espaciado interno */
+ 	margin: 20px; /* Espaciado externo */
+	background-color: #ffffff; /* Cambia esto al color de fondo deseado */
+	
+}
+
+
+
+.contenedor{
+	display: flex; /* Utilizamos flexbox para establecer dos columnas */
+	flex-direction: row;
+	/*flex-grow: 1; /* Por defecto, el elemento ocupa todo el espacio disponible */
+	
+}
+
+.tarjetas{
+	width: 80%;
+}
+
+.card{
+	display: flex; /* Utilizamos flexbox para establecer dos columnas */
+	border-radius: 10px;	/* Borde redondeado en las esquinas */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);	/* Sombra en el lado inferior */
+	padding: 20px; /* Espaciado interno */
+ 	margin: 5px; /* Espaciado externo */
+}
+.card .contenido {
+	flex: 1; /* La primera columna (contenido) ocupa todo el espacio disponible */
+	margin-right: 20px; /* Espaciado a la derecha para separar las columnas */
+}
+
+.card .imagen {
+	flex: 0 0 auto; /* La segunda columna (imagen) no crece ni se encoge */
+	/*width: 100%; /* Ancho del 50% para la imagen */
+	max-width: 50%; /* La imagen no debe exceder el ancho del contenedor */
+	height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+}
+
+.card h3.model {
+	text-align: center;
+	font-size: 1.5rem; /* Tamaño de fuente para el título */
+	margin-bottom: 10px; /* Espaciado inferior */
+}
+
+.card p.descrip {
+	font-size: 1rem; /* Tamaño de fuente para la descripción */
+	margin-bottom: 10px; /* Espaciado inferior */
+}
+
+.card img.moto {
+	width: 100%; /* La imagen ocupa todo el ancho del div */
+	border-radius: 10px; /* Borde redondeado en las esquinas */
+	margin-bottom: 10px; /* Espaciado inferior */
+  }
+
+.menu-izq{
+	display: flex;
+	flex-direction: column;
+
+}
+
+.enlace{
+	border-radius: 10px;	/* Borde redondeado en las esquinas */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);	/* Sombra en el lado inferior */
+	padding: 5px; /* Espaciado interno */
+ 	margin: 5px; /* Espaciado externo */
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+	.contenedor{
+		flex-direction: column;
+		/*flex-grow: 0; /* Por defecto, el elemento ocupa todo el espacio disponible */
+		width: 100%;
+	}
+	.card {
+	  flex-direction: column; /* Cambia la dirección a columna en dispositivos móviles */
+	  align-items: center;
+	  
+	}
+  
+	.imagen {
+	  order: -1; /* Cambia el orden de la imagen para que aparezca primero en dispositivos móviles */
+	}
+
+	.card p.descrip {
+		text-align: justify;
+	}
+
+	.card .contenido {
+		flex: 1; /* La primera columna (contenido) ocupa todo el espacio disponible */
+		margin-right: 20px; /* Espaciado a la derecha para separar las columnas */
+		width: 100%;
+	}
+
+	.tarjetas{
+		width: 100%;
+	}
+
+	
+  }
+
+
